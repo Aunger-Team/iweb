@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://www.lmstfy.icu/Baidu/?q=5LuA5LmI5piv -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>让我帮你百度一下 | Let Me Baidu That For You</title>
+
+    <link rel="shortcut icon" href="https://www.lmstfy.icu/Baidu/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/base64.min.js"></script>
+    <script src="./js/clipboard.min.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <section id="search">
+      <div class="search-header">
+        <h2>
+          <span class="let-me">让我帮你</span>
+          <img src="./img/baidu_logo.png" alt="百度" title="让我帮你百度一下">
+          <span class="for-you">一下</span>
+        </h2>
+      </div>
+
+      <form id="search-form">
+        <div class="search-form-group">
+          <div class="search-form-input">
+            <input type="search" id="kw" maxlength="255" autocomplete="off" required="">
+          </div>
+          <button id="search-submit">百度一下</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="function">
+      <p id="tips">输入一个问题，然后点击百度一下</p>
+
+      <button id="stop" style="display: none;">快停下！我是自己人</button>
+
+      <div id="output">
+        <textarea id="url-output" rows="3" readonly=""></textarea>
+        <div class="tool-btns">
+          <button data-clipboard-target="#url-output">复制</button>
+          <button id="preview">预览</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <ul class="footer-right">
+        <li>
+          * 本站与百度公司没有任何联系，baidu 以及本站出现的百度公司 Logo
+          是百度公司的商标
+        </li>
+      </ul>
+    </footer>
+
+    <div id="arrow" style="display: none; left: 462.838px; top: 234.356px;"></div>
+
+
+        <!--浏览量记录-->
+        <div class="div_foot" style="font-size:.70rem;color:#6c757d;position:absolute;height:10px;text-align:center;line-height:50px;width:100%;">
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_page_pv" style="display: none;"> 本页总阅读量[<span id="busuanzi_value_page_pv"></span>]</span>
+            <span id="busuanzi_container_site_uv" style="display: none;"> ｜本站总访客数[<span id="busuanzi_value_site_uv"></span>]</span>
+            <span id="busuanzi_container_site_pv" style="display: none;"> ｜本站总访问量[<span id="busuanzi_value_site_pv"></span>]</span>
+        </div>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- 访客IP地址 -->
+<div style="text-align: center; width: 100%; border: green solid 0px; ">
+    <img alt="" src="https://tool.lu/netcard/" style="margin: 0 auto; filter: opacity(60%);" />
+</div>
+
+  
+<!--禁止打开F12-->
+<script type="text/javascript">
+//判断F12审查元素
+function fuckyou() {
+    window.close(); //关闭当前窗口(防抽)
+    window.location = "about:blank"; //将当前窗口跳转置空白页
+}
+ 
+function ck() {
+    console.profile();
+    console.profileEnd();
+    //判断profiles里有无内容,若有,则说明按下了F12
+    if(console.clear) {
+        console.clear()
+    };
+    if(typeof console.profiles == "object") {
+        return console.profiles.length > 0;
+    }
+}
+ 
+function hehe() {
+    if((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
+        fuckyou();
+    }
+    if(typeof console.profiles == "object" && console.profiles.length > 0) {
+        fuckyou();
+    }
+}
+hehe();
+window.onresize = function() {
+    if((window.outerHeight - window.innerHeight) > 200)
+        //判断当前窗口内页高度和窗口高度,如果差值大于200，那么则说明浏览器调试框已被打开
+        fuckyou();
+    }
+</script>
+
+</body></html>

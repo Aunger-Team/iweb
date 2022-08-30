@@ -1,0 +1,8 @@
+[submodule "so"]
+	url  = https://gitee.com/aunger01/so
+	path = so
+
+[submodule "topweb"]
+	url  = https://gitee.com/aunger01/topweb
+	path = topweb
+

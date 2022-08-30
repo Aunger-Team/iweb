@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # iweb
 
 #### Description
 {**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+=======
+# web
+
+#### Description
+安杰聚合网站
+>>>>>>> 577b7ed (描述（比如：第一次像远程仓库提交我的代码）)
 
 #### Software Architecture
 Software architecture description
