@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # iweb
 
 #### Description
@@ -8,7 +7,6 @@
 
 #### Description
 安杰聚合网站
->>>>>>> 577b7ed (描述（比如：第一次像远程仓库提交我的代码）)
 
 #### Software Architecture
 Software architecture description
